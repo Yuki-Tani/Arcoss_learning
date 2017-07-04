@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/* 初期設定
+---------------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  color: #333;
+  background: #fff;
+}
+h1, h2, h3 {
+  color: #222;
+}
+h1 {
+  font-size: x-large;
+}
+h2 {
+  font-size: medium;
+}
+h3 {
+  font-size: small;
+}
+p {
+  line-height: 1.7;
+}
+a:link, a:visited {
+  color: #37c;
+}
+a:hover {
+  color: #999;
+}
+section, article, aside, nav, header, main, footer {
+  display: block;
+}
+
+/* ページの枠組み
+---------------------------------------------------- */
+#page {
+  margin: 0 auto;
+  width: 900px;
+}
+main {
+  width: 800px;
+  margin: 0 50px 0;
+}
+main h1 {
+  text-align: center;
+}
+
+#sub {
+  width: 800px;
+  border-top: 1px solid #ccc;
+  padding: 0 50px 20px;
+  overflow: hidden;
+}
+
+#sub section section{
+  width: 150px;
+  float: left;
+  border-right: 1px solid #ccc;
+  padding: 0 20px 0;
+}
+
+#more {
+  float: left;
+  padding: 100px 20px 0;
+  font-size: 20px;
+}
+
+footer {
+  width: 900px;
+  clear: both;
+  background-color: #aaa;
+}
+#copyright {
+  clear: both;
+}
+
+/* ヘッダー
+---------------------------------------------------- */
+header img {
+  display: block;
+}
+#logo {
+  margin: 20px 0;
+}
+
+/* ナビゲーション
+---------------------------------------------------- */
+header nav ul {
+  overflow: hidden;
+  width: auto;
+  float: left;
+  margin: 0 0 10px 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+  line-height: 1.0;
+  background: url(images/li-bg.jpg) repeat-x bottom;
+}
+header nav li,header nav a {
+  display: block;
+}
+header nav li {
+  float: left;
+  border-right: 1px solid #ddd;
+}
+header nav a {
+  padding: 15px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #fff;
+}
+header nav a:hover {
+  background: url(images/li-bg-hover.jpg) repeat-x bottom;
+}
+
+/* フッター
+---------------------------------------------------- */
+footer{
+  position: relative;
+  border: solid 1px #aaa;
+}
+
+footer nav {
+  overflow: hidden;
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer nav li {
+  display: block;
+  float: left;
+  width: 100px;
+}
+
+footer nav a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.0;
+  padding: 5px 0 0;
+}
+
+footer nav a:link, footer nav a:visited{
+  color: #fff;
+}
+
+#topLink{
+  margin 0;
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: 100px;
+  background-color: #412929;
+}
+#topLink a {
+  padding: 25px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+#copyright {
+  padding-top: 20px;
+  text-align: center;
+  color: #999;
+}
+/* ------------------------*/
+#cover {
+  background: rgb(0, 0, 0);
+  display: block;
+  position: absolute;
+  width : 1600px;
+  height: 1200px;
+  top : 0px;
+  left : 0px;
+}
